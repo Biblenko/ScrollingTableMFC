@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\MFC">
+      <UniqueIdentifier>{a41424fc-1552-4e6c-aa52-2b26d6311a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\MFC">
+      <UniqueIdentifier>{b23f3b67-9370-42a9-870d-209a5b86ec73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Table">
+      <UniqueIdentifier>{c3c3bcae-dfa9-431c-aca7-bae485e85130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Table">
+      <UniqueIdentifier>{bc1be46c-b741-409d-b657-353e7ad3c1d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollingTable.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollingTableDoc.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollingTableView.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Файлы заголовков\MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Файлы заголовков\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="TableView.h">
+      <Filter>Файлы заголовков\Table</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Файлы заголовков\Table</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Исходные файлы\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Исходные файлы\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollingTable.cpp">
+      <Filter>Исходные файлы\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollingTableDoc.cpp">
+      <Filter>Исходные файлы\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollingTableView.cpp">
+      <Filter>Исходные файлы\MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Исходные файлы\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="TableView.cpp">
+      <Filter>Исходные файлы\Table</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Исходные файлы\Table</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ScrollingTable.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ScrollingTable.rc2">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ScrollingTableDoc.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\ScrollingTable.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
